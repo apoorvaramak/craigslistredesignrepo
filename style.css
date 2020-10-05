@@ -61,10 +61,14 @@ hr.solid {
 
 .bottomtext {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  margin-left:1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /* margin-left:1200px;
   margin-right: 100px;
   display: block;
-  font-size: 12px;
+  font-size: 12px;*/
 }
 
 .bottomblock {
@@ -77,4 +81,8 @@ hr.solid {
 
 .spacing {
   padding-left: 25px;
+}
+@media only screen and (max-width: 600px)
+{
+
 }
