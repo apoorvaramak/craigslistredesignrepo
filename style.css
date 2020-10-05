@@ -72,11 +72,11 @@ hr.solid {
 }
 
 .bottomblock {
-  display: block;
+  /* display: block;
   width: 100%;
   background-color: #dddddd;
   margin-top: 600px;
-  height: 135px;
+  height: 135px; */
 }
 
 .spacing {
